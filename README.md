@@ -1,3 +1,2 @@
-# HNG-task-2
-twitter url: https://twitter.com/KOmofolarinwa/status/1164890246057746432
-lucid blog post url: https://lucid.blog/omofolarinwa.kamar/post/1566565759
+# HNG-task 3
+https://lucid.blog/omofolarinwa.kamar/post/styling-web-pages-c5b
