@@ -1,0 +1,43 @@
+
+body{background-color: darkgrey;
+	font-family:tahoma, helvetica;
+	font-weight: 500;
+
+	line-height: 1.6em;
+
+	
+}
+
+
+
+#w { margin: 0px 50px; padding: 20px 40px; padding-top: 35px; background: #fff; min-width: 260px; max-width: 900px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; -webkit-border-bottom-left-radius: 8px; -webkit-border-bottom-right-radius: 8px; -moz-border-radius-bottomleft: 8px; -moz-border-radius-bottomright: 8px; }
+
+header { width: 100%; }
+
+img { border: 0; max-width: 100%;height:auto; }
+
+
+#photo { float: right; }
+#photo img { 
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+background-color: #fff;
+border: 1px solid #ccc;
+padding: 5px; 
+}
+
+
+/** @group skills **/
+#skills-left { display: block; float: left; margin-right: 30px; }
+#skills-right { display: block; float: left;}
+
+/** @group clearfix **/
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+ 
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }

@@ -1,44 +1,56 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>KAMAR'S CV</title>	
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>KAMAR'S CV</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="HandheldFriendly" content="true">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Simonetta:400,900|Balthazar">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
 	</head>
 
 	<body>
 		<!--personal information-->
-		<div>
-			<table>
-				<tr>
-					<tr><h1>KAMAR FOLARIN</h1></tr>
-				</tr>
-				<tr>
-					<td><a href="mailto:omofolarinwa.kamar@gmail.com">omofolarinwa.kamar@gmail.com</a></td>
-				</tr>
-				<tr>
-					<td><a href="tel:07032626542">07032626542</a></td>
-				</tr>
-				<tr>
-					<td><address>Uyo, Nigeria</address></td>
-				</tr>
-			</table>
-		</div>
-	<!--career statement-->
+		<div id="w" itemscope itemtype="http://schema.org/Person">
+		<header class="clearfix">
+			<div id="info">
+				<h1><span itemprop="name">Folarin Kamar</span></h1>
+				<h3><span itemprop="jobTitle">Machine learning enthusiast</span></h3>
+				<small itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+				  <span itemprop="addressLocality">77a, Nwaniba Road</span>,
+				  <span itemprop="addressRegion">Uyo</span>,
+				  <span itemprop="addressCountry">Nigeria</span>
+				</small>
+				<small><span itemprop="email">omofolarinwa.kamar@gmail.com</span></small>
+			</div>
+			<div id="photo">
+				<!--personal image-->
+				<img src="https://res.cloudinary.com/kamar-folarin/image/upload/v1566566026/hng%20pictures/WIN_20170830_07_51_45_Pro_ennqmh.jpg" alt="kamar's photograph" height="400" width="400">
+			</div>
+		<header>
+
+
 		<div>
 			<h3>CAREER OBJECTIVE</h3>
 			<hr>
 			<p>A dilligent  and creaative thinker striving to build a career in machine learning and artificial intelligence,where i can get the opportunities to prove my abilities by solving real life human problems using smart technologies and systems through continous learning and capacity development. </p>
 			<br>
-		</div>	
-	<h3>EDUCATIONAL HISTORY</h3>
-	<hr>
-		<ul>
-			<li><strong>B.ENG., MECHATRONICS ENGINEERING, (2ND CLASS, UPPER DIVISION)</strong>
-			FEDERAL UNIVERSITY OYE-EKITI, EKITI STATE</li>
-			<li><strong>WEST AFRICAN SENIOR SCHOOL CERTIFICATE EXAMINATION (WASSCE)</strong>
-			ABEOKUTA GRAMMAR SCHOOL,ABEOKUTA, OGUN STATE.</li>
-		</ul>
-	<!--work experince-->
-		<div>
+		</div>
+	<section id="education">
+			<h3>EDUCATIONAL HISTORY</h3>
+		<hr>
+			<ul>
+				<li><strong>B.ENG., MECHATRONICS ENGINEERING, (2ND CLASS, UPPER DIVISION)</strong>
+				FEDERAL UNIVERSITY OYE-EKITI, EKITI STATE</li>
+				<li><strong>WEST AFRICAN SENIOR SCHOOL CERTIFICATE EXAMINATION (WASSCE)</strong>
+				ABEOKUTA GRAMMAR SCHOOL,ABEOKUTA, OGUN STATE.</li>
+			</ul>
+	</section>
+	<section id="experience">
+		<!--work experince-->
 			<h3>WORK EXPERIENCE</h3>
 			<hr>
 				<ul>
@@ -52,26 +64,34 @@
 						</ol>
 					</li>
 				</ul>
-		</div>
-	<!--hard and soft skills-->
+	</section>
+
 		<div>
-			<h3>HARD SKILLS</h3><hr>
+
+		</div>
+	<section id="skills" class="clearfix" itemscope itemtype="http://schema.org/ItemList">
+			<h2 itemprop="name">Skillset</h2>
+			<section id="skills-left">
+				<h4 itemprop="about">Hard skills</h4>
 				<ul>
-					<li>Knowledge of HTML, CSS and javascript</li>
-					<li>Knowledge of arduino c-programmimg</li>
+					<li itemprop="itemListElement">HTML5/CSS3</li>
+					<li itemprop="itemListElement">arduino c-programming</li>
 				</ul>
-		</div>
-		<div>
-		<h3>SOFT SKILLS</h3><hr>
-			<ul>
-				<li>Effective communication</li>
-				<li>Team player</li>
-				<li>Fast learner</li>
-				<li>leadership</li>
-				<li>Problem solving</li>
-			</ul>
-		</div>
-<!--certifications and awards gotten-->
+			</section>
+
+			<section id="skills-right">
+				<h4 itemprop="about">Soft skills</h4>
+				<ul>
+					<li itemprop="itemListElement">Effective communication</li>
+					<li itemprop="itemListElement">Team player</li>
+					<li itemprop="itemListElement">Fast learner</li>
+					<li itemprop="itemListElement">leadership</li>
+					<li itemprop="itemListElement">Problem solving</li>
+				</ul>
+			</section>
+		</section>
+	<section>
+		<!--certifications and awards gotten-->
 		<h3>Certifications and Awards</h3><hr>
 			<ul>
 				<li>Front end web development from udacity</li>
@@ -80,8 +100,9 @@
 			</ul>
 		<h3>REFREES</h3><hr>
 			<p>Would be provided upon request</p>
-<!--personal image-->
-			<img src="https://res.cloudinary.com/kamar-folarin/image/upload/v1566566026/hng%20pictures/WIN_20170830_07_51_45_Pro_ennqmh.jpg">
+	</section>
+
+
 	</body>
 
 </html>
